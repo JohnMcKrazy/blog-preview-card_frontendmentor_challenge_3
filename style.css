@@ -52,7 +52,7 @@ IMG {
 .header_img {
     border-radius: .5rem;
     width: 100%;
-    height: 200px;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -76,7 +76,7 @@ ARTICLE {
     box-shadow: 8px 8px var(--black);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
     border: solid 1px var(--black);
@@ -139,6 +139,7 @@ SPAN {
 
 .attribution {
     color: var(--grey);
+    text-align: center;
 }
 
 SVG {
